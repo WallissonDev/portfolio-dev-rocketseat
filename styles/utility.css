@@ -12,13 +12,24 @@
     --title-md: 800 24px/120% var(--asap);
     --title-sm: 800 16px/120% var(--asap);
     --inconsolata: "Inconsolata", sans-serif;
-    --subtitle: 800 20px/120% var(--inconsolata);
+    --subtitle: 400 20px/120% var(--inconsolata);
     --maven-pro: "Maven Pro", sans-serif;
     --text-md-pro: 800 16px/140% var(--maven-pro);
-    --text-sm-pro: 800 14px/140% var(--maven-pro);
-    
+    --text-sm-pro: 400 14px/140% var(--maven-pro);
 
-    
+    /* Colors section */
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+
 }
 
 .grid{
@@ -39,4 +50,16 @@
 
 .gap-16{
     gap: 16px;
+}
+
+.subtitle{
+    font: var(--subtitle);
+    color: var(--gray-200);
+}
+
+.title-lg{
+    font: var(--title-lg);
+}
+.text-sm{
+    font: var(--text-sm-pro);
 }
