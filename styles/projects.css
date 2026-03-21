@@ -1,0 +1,39 @@
+#projects{
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 164px repeat(3, 3fr) 164px;
+
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+        grid-area: 1 / 1 / 2 / 5;
+    }
+}
+
+#project-card{
+    min-width: 330px;
+    min-height: 280px;
+    border-radius: 20px;
+    background-color: var(--gray-400);
+
+    #project-image{
+        background-image: url(../assets/Thumbnail_Project-01.png);
+        background-size: cover;
+        margin: 8px auto 8px auto;
+        border-radius: 10px;
+        padding: 20px;
+        width: 305px;
+        height: 156px;
+    }
+
+    h1{
+        font: var(--title-sm);
+        color: var(--gray-100);
+    }
+    p {
+        font: var(--text-sm-pro);
+        color: var(--gray-200);
+    }
+}

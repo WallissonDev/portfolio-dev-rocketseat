@@ -10,6 +10,10 @@ body {
     background-color: var(--gray-500);
 }
 
+strong{
+            color: var(--red);
+}
+
 :root{
     --asap: "Asap", sans-serif;
     --title-lg: 800 56px/120% var(--asap);
@@ -66,4 +70,8 @@ body {
 }
 .text-sm{
     font: var(--text-sm-pro);
+}
+.title-md{
+    font: var(--title-md);
+    color: white;
 }

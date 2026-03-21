@@ -58,9 +58,6 @@
     #title > *{
         padding: 10px;
 
-        strong{
-            color: var(--red);
-        }
     }
 }
 
