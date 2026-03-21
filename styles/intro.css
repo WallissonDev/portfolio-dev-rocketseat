@@ -1,4 +1,4 @@
-main{
+#intro{
     width: auto;
     background-image: url(../assets/Background_Intro.png);
     background-position: center center;
@@ -106,4 +106,10 @@ main{
         content: url(../assets/Node.js.svg);
         vertical-align: middle;
     }
+}
+
+#vector{
+    grid-area: 4 / 1 / 5 / 2;
+    place-self: center;
+    
 }
