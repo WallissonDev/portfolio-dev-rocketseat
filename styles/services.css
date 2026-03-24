@@ -1,0 +1,55 @@
+
+#services-section{
+    background-color: var(--gray-600);
+}
+
+#services{
+    
+    min-height: 480px;
+    padding-top: 88px;
+
+    max-width: 1000px;
+    margin: auto;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas: 
+    "header header header"
+    "div div div"
+    ;
+
+    header{
+        grid-area: header;
+        justify-self: center;
+    }
+}
+
+#services-card{
+    border: 1px solid var(--gray-500);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding: 20px;
+
+    max-width: 280px;
+    max-height: 155px;
+
+    img{
+        width: 48px;
+        height: 48px;
+        padding-bottom: 12px;
+    }
+    h2{
+        font: var(--title-sm);
+        color: white;
+    }
+    p{
+        font: var(--text-sm-pro);
+        color: white;
+    
+    }
+}
