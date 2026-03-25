@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌐 Portfólio Dev
 
 > Um portfólio criado durante meu percurso Fullstack na Rocketseat
