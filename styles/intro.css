@@ -6,6 +6,7 @@
     color: white;
     header{
         grid-template-rows: 30px auto 40px 183px;
+
     }
     
 }
