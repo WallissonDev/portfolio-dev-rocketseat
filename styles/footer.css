@@ -39,6 +39,11 @@ menu {
     flex-direction: column;
     gap: 16px;
     align-items: center;
+
+}
+
+.menu-cards:hover{
+    background-color: var(--gray-hover);
 }
 
 .menu-cards{
@@ -54,7 +59,7 @@ menu {
 
     place-content: center;
 
-    a{
+    p{
         display: flex;
         align-items: center;
 
